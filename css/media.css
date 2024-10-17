@@ -1,0 +1,212 @@
+/*========> Container <========*/
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding-inline: 15px;
+  }
+}
+
+/*=======> NavBar <========*/
+
+@media screen and (max-width: 1200px) {
+  .container .nav-icon {
+    display: block;
+  }
+
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    width: 21.875rem;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    transform: translateX(100%);
+    padding-inline: 0.625rem;
+    gap: 0;
+  }
+
+  nav ul li {
+    padding-block: 1.25rem;
+  }
+
+  nav ul li.close-icon {
+    display: block;
+  }
+
+  nav div.mode {
+    margin-left: auto;
+    margin-right: 1.25rem;
+    margin-top: 0.3125rem;
+  }
+}
+
+/*=======> Header <========*/
+@media screen and (min-width: 1200px) {
+  header {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  header .container > * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  header .btn-main {
+    --border-radius: 100vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-content .buttons-group {
+    flex-direction: column;
+  }
+}
+
+/*========> Chefs <========*/
+@media screen and (max-width: 992px) {
+  .chefs .chefs-cards .card {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .chefs .chefs-cards .card {
+    width: 100%;
+  }
+}
+
+/*=======> Gallery <========*/
+@media screen and (max-width: 1400px) {
+  .gallery .gallery-photos {
+    height: 66.8125rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery .gallery-photos {
+    height: 55.8125rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gallery .gallery-photos {
+    height: 90.8125rem;
+  }
+
+  .gallery .gallery-photos picture {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+
+  .gallery .pizza {
+    order: 1;
+  }
+  .gallery .fried {
+    order: 6;
+  }
+  .gallery .omelette {
+    order: 4;
+  }
+  .gallery .kofta {
+    order: 7;
+  }
+  .gallery .burger {
+    order: 2;
+  }
+  .gallery .pizza-slices {
+    order: 3;
+  }
+  .gallery .steak {
+    order: 5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .gallery-photos {
+    height: auto;
+  }
+  .gallery .gallery-photos picture {
+    width: 100%;
+  }
+}
+
+
+/* contact */
+@media screen and (max-width: 992px) {
+  .contact form > div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact form > div input,
+  .contact form textarea {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact .details > div {
+    width: 100%;
+  }
+}
+
+/* Footer */
+@media screen and (max-width: 1200px) {
+  footer .container :is(.about, .contact-details) {
+    width: calc(calc(100% - var(--gap)) / 2);
+    order: 1;
+  }
+
+  footer .container :is(.subscription) {
+    width: 100%;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .container :is(.about, .contact-details, .subscription) {
+    width: 100%;
+    order: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer footer .subscription .subscription-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

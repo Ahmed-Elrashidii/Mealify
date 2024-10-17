@@ -1,0 +1,41 @@
+:root:has(.mode input:checked) {
+  --primary-hue: 35;
+  --primary-lightness: 44%;
+  --primary-saturation: 72%;
+  --light-hue: 0;
+  --light-saturation: 0%;
+  --light-lightness: 9%;
+  --color-default: #fff;
+  --color-secondary: #fff;
+  --color-tertiary: #9f9f9f;
+  --color-light-grey: #252525;
+}
+
+body:has(.mode input:checked) {
+  background-color: #202020;
+}
+body:has(.mode input:checked) .card picture::before {
+  background-image: url(../img/team-shape-dark.svg);
+}
+
+/* Li Mode */
+body:not(:has(:target)):has(.mode input:checked) .home-link,
+body:has(.home:target):has(.mode input:checked) .home-link,
+body:has(.chefs:target):has(.mode input:checked) .chefs-link,
+body:has(.gallery:target):has(.mode input:checked) .gallery-link,
+body:has(.contact:target):has(.mode input:checked) .contact-link {
+  color: white;
+}
+
+body:has(.mode input:checked) nav  a:hover {
+    color: white;
+}
+
+/* CheckBox Mode */
+body:has(.mode input:checked) nav .mode .light {
+    display: block;
+}
+
+body:has(.mode input:checked) nav .mode .dark {
+    display: none;
+}
