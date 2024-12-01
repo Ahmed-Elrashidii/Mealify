@@ -35,7 +35,9 @@ Mealify is a responsive website designed for a restaurant, focusing on showcasin
 
 For any questions or collaboration requests, feel free to reach out!
 
-- **Email**: [ahmedmostapha765@gmail.com](mailto:ahmedmostapha765@gmail.com)
-- **GitHub**: [github.com/Ahmed-Elrashidii](https://github.com/Ahmed-Elrashidii)
-- **LinkedIn**: [linkedin.com/in/ahmed-mostafa-60422b208](www.linkedin.com/in/ahmed-elrashidii)
+ - [Email](mailto:ahmedmostapha765@gmail.com)
+ - [GitHub](https://github.com/Ahmed-Elrashidii)
+ - [LinkedIn](https://www.linkedin.com/in/ahmed-elrashidii)
+
+
 
